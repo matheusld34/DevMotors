@@ -34,6 +34,7 @@ export function Services({ object }: HomeProps) {
                                 alt="Imagem do serviço"
                                 quality={100}
                                 fill={true}
+                                sizes="(max-width: 480px) 100vw, (max-width: 1024px) 75vw, 60vw"
                                 src={service.image.url}
                             />
                         </div>
